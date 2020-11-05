@@ -8,8 +8,6 @@
     "build": "vuepress build docs",
     "d": "bash deploy.sh github",
     "r": "bash release.sh github",
-    "d:gitee": "bash deploy.sh gitee",
-    "r:gitee": "bash release.sh gitee",
     "push": "bash push.sh",
     "test": "bash test.sh"
   }
