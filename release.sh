@@ -1,3 +1,5 @@
+#!/usr/bin/env sh
+
 # 进入生成的文件夹
 cd dist
 
