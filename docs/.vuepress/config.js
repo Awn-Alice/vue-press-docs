@@ -32,5 +32,4 @@ module.exports = {
     base: '/vue-press-docs/',
     port: 8888,
     dest: 'dist', // 默认值 .vuepress/dist，指定 vuepress build 的输出目录
-    assetsPublicPath: './'
 };
