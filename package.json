@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "d": "bash deploy.sh github",
-    "r": "bash release.sh github",
+    "d": "bash deploy.sh",
+    "r": "bash release.sh",
     "push": "bash push.sh",
     "test": "bash test.sh"
   }

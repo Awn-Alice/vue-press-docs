@@ -12,7 +12,7 @@ cd dist
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m $1
 
 # 这里不需要判断参数了，可以同时推到两个远程库
 # if [ $1 = 'github' ]; then
