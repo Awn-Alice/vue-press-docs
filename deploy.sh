@@ -14,6 +14,10 @@ git init
 git add -A
 git commit -m 'deploy'
 
+if [ $1 = 'github' ]; then
 git push -f git@github.com:Awn-Alice/vue-press-docs.git master:gh-page
+else
+git push -f git@gitee.com:AColdFish/vue-press-docs.git master:gh-page
+fi
 
 cd -
