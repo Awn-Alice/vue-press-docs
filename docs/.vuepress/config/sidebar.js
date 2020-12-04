@@ -22,5 +22,8 @@ module.exports = {
     ],
     '/engineering/': [
         '/engineering/git'
+    ],
+    '/css/': [
+        '/css'
     ]
 }
