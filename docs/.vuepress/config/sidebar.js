@@ -24,6 +24,6 @@ module.exports = {
         '/engineering/git'
     ],
     '/css/': [
-        '/css'
+        '/css/flex'
     ]
 }
