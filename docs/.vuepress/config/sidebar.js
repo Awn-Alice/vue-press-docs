@@ -18,6 +18,17 @@ module.exports = {
         '/mac/end'
     ],
     '/vue/': [
+        {
+            title: 'vue3+ts+vite 初体验',
+            collapsable: true,
+            path: '/vue/vue3+ts/',
+            children: [
+                { title: 'axios 封装', path: '/vue/vue3+ts/axios封装' },
+                { title: 'hooks 的使用', path: '/vue/vue3+ts/hooks' },
+                { title: 'ts 的配置', path: '/vue/vue3+ts/typescript' },
+                { title: '自定义组件多个 v-model', path: '/vue/vue3+ts/components' },
+            ]
+        },
         '/vue/webpack-conf'
     ],
     '/engineering/': [
