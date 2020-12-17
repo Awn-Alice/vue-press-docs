@@ -35,7 +35,7 @@ module.exports = {
     },
     "/vue/webpack-conf",
   ],
-  "/engineering/": ["/engineering/git", "/engineering/模块化"],
+  "/engineering/": ["/engineering/模块化", "/engineering/git"],
   "/errorLog/": [
     {
       title: "错误日志",
