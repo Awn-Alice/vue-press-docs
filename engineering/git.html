@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>git 常用操作 | Awn-Alice的博客</title>
+    <meta name="generator" content="VuePress 1.5.1">
+    <link rel="icon" href="/vue-press-docs/Avatar.png">
+    <meta name="description" content="Awn-Alice的日常随笔">
+    <link rel="preload" href="/vue-press-docs/assets/css/0.styles.6d752443.css" as="style"><link rel="preload" href="/vue-press-docs/assets/js/app.5c329405.js" as="script"><link rel="preload" href="/vue-press-docs/assets/js/2.036c2d75.js" as="script"><link rel="preload" href="/vue-press-docs/assets/js/8.91e22acf.js" as="script"><link rel="prefetch" href="/vue-press-docs/assets/js/10.65bf9071.js"><link rel="prefetch" href="/vue-press-docs/assets/js/11.01b45290.js"><link rel="prefetch" href="/vue-press-docs/assets/js/12.20757c15.js"><link rel="prefetch" href="/vue-press-docs/assets/js/13.26a51e5c.js"><link rel="prefetch" href="/vue-press-docs/assets/js/14.e52b1810.js"><link rel="prefetch" href="/vue-press-docs/assets/js/15.7160168e.js"><link rel="prefetch" href="/vue-press-docs/assets/js/16.0f9f2697.js"><link rel="prefetch" href="/vue-press-docs/assets/js/17.bbee3852.js"><link rel="prefetch" href="/vue-press-docs/assets/js/18.239b8985.js"><link rel="prefetch" href="/vue-press-docs/assets/js/19.249cce85.js"><link rel="prefetch" href="/vue-press-docs/assets/js/20.db4955d6.js"><link rel="prefetch" href="/vue-press-docs/assets/js/21.60f7f9a5.js"><link rel="prefetch" href="/vue-press-docs/assets/js/22.455409b3.js"><link rel="prefetch" href="/vue-press-docs/assets/js/23.c06d36a5.js"><link rel="prefetch" href="/vue-press-docs/assets/js/24.e9046026.js"><link rel="prefetch" href="/vue-press-docs/assets/js/25.754a5107.js"><link rel="prefetch" href="/vue-press-docs/assets/js/26.43a46055.js"><link rel="prefetch" href="/vue-press-docs/assets/js/27.5cb664eb.js"><link rel="prefetch" href="/vue-press-docs/assets/js/28.835ef978.js"><link rel="prefetch" href="/vue-press-docs/assets/js/29.cb7f4a9c.js"><link rel="prefetch" href="/vue-press-docs/assets/js/3.fe6a20c9.js"><link rel="prefetch" href="/vue-press-docs/assets/js/30.9fc4fd67.js"><link rel="prefetch" href="/vue-press-docs/assets/js/31.f36568fd.js"><link rel="prefetch" href="/vue-press-docs/assets/js/4.12f80749.js"><link rel="prefetch" href="/vue-press-docs/assets/js/5.34cf010e.js"><link rel="prefetch" href="/vue-press-docs/assets/js/6.6e52b6be.js"><link rel="prefetch" href="/vue-press-docs/assets/js/7.5abd109b.js"><link rel="prefetch" href="/vue-press-docs/assets/js/9.9f05954d.js">
+    <link rel="stylesheet" href="/vue-press-docs/assets/css/0.styles.6d752443.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vue-press-docs/" class="home-link router-link-active"><img src="/vue-press-docs/Avatar.png" alt="Awn-Alice的博客" class="logo"> <span class="site-name can-hide">Awn-Alice的博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/vue-press-docs/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/vue-press-docs/js/" class="nav-link">
+  JS
+</a></div><div class="nav-item"><a href="/vue-press-docs/css/flex.html" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/vue-press-docs/vue/vue3+ts/" class="nav-link">
+  VUEJS
+</a></div><div class="nav-item"><a href="/vue-press-docs/wechat/informal-essay-01.html" class="nav-link">
+  微信生态
+</a></div><div class="nav-item"><a href="/vue-press-docs/mac/Terminal-Operation-Manual.html" class="nav-link">
+  MAC操作
+</a></div><div class="nav-item"><a href="/vue-press-docs/engineering/模块化.html" class="nav-link">
+  工程化
+</a></div><div class="nav-item"><a href="/vue-press-docs/errorLog/" class="nav-link">
+  错误日志
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/vue-press-docs/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/vue-press-docs/js/" class="nav-link">
+  JS
+</a></div><div class="nav-item"><a href="/vue-press-docs/css/flex.html" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/vue-press-docs/vue/vue3+ts/" class="nav-link">
+  VUEJS
+</a></div><div class="nav-item"><a href="/vue-press-docs/wechat/informal-essay-01.html" class="nav-link">
+  微信生态
+</a></div><div class="nav-item"><a href="/vue-press-docs/mac/Terminal-Operation-Manual.html" class="nav-link">
+  MAC操作
+</a></div><div class="nav-item"><a href="/vue-press-docs/engineering/模块化.html" class="nav-link">
+  工程化
+</a></div><div class="nav-item"><a href="/vue-press-docs/errorLog/" class="nav-link">
+  错误日志
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/vue-press-docs/engineering/模块化.html" class="sidebar-link">CommonJS 与 ES6 Module</a></li><li><a href="/vue-press-docs/engineering/git.html" aria-current="page" class="active sidebar-link">git 常用操作</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/vue-press-docs/engineering/git.html#想把代码同时推到-github-和-gitee-远程库" class="sidebar-link">想把代码同时推到 github 和 gitee 远程库</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="git-常用操作"><a href="#git-常用操作" class="header-anchor">#</a> git 常用操作</h1> <h2 id="想把代码同时推到-github-和-gitee-远程库"><a href="#想把代码同时推到-github-和-gitee-远程库" class="header-anchor">#</a> <strong>想把代码同时推到 github 和 gitee 远程库</strong></h2> <p></p> <ol><li><p><strong>首先要在项目中添加两个远程库的远程源</strong></p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// 初始化 git 仓库</span>
+git init
+<span class="token comment">// 添加远程库源，注意 两个远程库的名字不能一样 origin / origin2</span>
+git remote add origin git@github<span class="token punctuation">.</span>com<span class="token operator">...</span><span class="token operator">...</span>git
+git remote add origin2  git@gitee<span class="token punctuation">.</span>com<span class="token operator">...</span><span class="token operator">...</span>git
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div></li> <li><p><strong>在 package.json 的 scripts 中添加一个 push 命令</strong></p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token string">&quot;push&quot;</span><span class="token operator">:</span> <span class="token string">&quot;bash push.sh&quot;</span><span class="token punctuation">,</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li> <li><p><strong>在项目根目录新建一个 bash.sh 文件，写入以下内容</strong></p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code>#<span class="token operator">!</span><span class="token operator">/</span>usr<span class="token operator">/</span>bin<span class="token operator">/</span>env sh
+
+git add <span class="token operator">-</span><span class="token constant">A</span>
+git commit <span class="token operator">-</span>m $<span class="token number">1</span>
+git push git@github<span class="token punctuation">.</span>com<span class="token operator">:</span><span class="token operator">...</span><span class="token operator">...</span>git master
+git push git@gitee<span class="token punctuation">.</span>com<span class="token operator">:</span><span class="token operator">...</span><span class="token operator">...</span>git master
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div></li> <li><p><strong>执行下面的命令即可同时上传到两个远程库</strong></p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// 后面跟一个参数 作为 commit -m 的值</span>
+
+npm run push <span class="token string">'first commit'</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div></li></ol></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/vue-press-docs/engineering/模块化.html" class="prev">
+        CommonJS 与 ES6 Module
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/vue-press-docs/assets/js/app.5c329405.js" defer></script><script src="/vue-press-docs/assets/js/2.036c2d75.js" defer></script><script src="/vue-press-docs/assets/js/8.91e22acf.js" defer></script>
+  </body>
+</html>
