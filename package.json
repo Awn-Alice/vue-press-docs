@@ -9,6 +9,11 @@
     "d": "bash deploy.sh",
     "r": "bash release.sh",
     "push": "bash push.sh",
-    "test": "bash test.sh"
+    "test": "bash test.sh",
+    "createNav": "node createNav.js",
+    "createMenu": "node createMenu.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0"
   }
 }

@@ -1,6 +1,6 @@
 # 自定义组件的多个 v-model
 
-**这里主要体现实现多个 v-model 功能，ctx.emit('update:projectId', '123')**
+### 这里主要体现实现多个 v-model 功能，ctx.emit('update:projectId', '123')
 
 ```typescript
 // robotIn.vue

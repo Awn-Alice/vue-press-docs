@@ -1,6 +1,6 @@
 # axios 的封装
 
-**在src下新建request文件夹，下面新建一个http.ts文件**
+### 在src下新建request文件夹，下面新建一个http.ts文件
 
 ```typescript
 import axios from 'axios'
@@ -113,7 +113,8 @@ export function post<T>(url: string, data?: any): Promise<T> {
 }
 
 ```
-**统一封装api请求，新建 request/api/robotIn.ts**
+
+### 统一封装api请求，新建 request/api/robotIn.ts
 
 ```typescript
 import { IProjectRes, IRobotInReq, IRobotInRes, ISupplierRes, IRobotDivideReq, IRobotDivideRes } from '../../types/robotIn-types'
@@ -140,7 +141,7 @@ export const getSupplierList = () => {
 }
 ```
 
-**在组件中使用api**
+### 在组件中使用api
 
 ```typescript
 <script lang="ts">

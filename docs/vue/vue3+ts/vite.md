@@ -1,6 +1,6 @@
 # 项目中vite的配置
 
-**根目录下vite.config.ts文件**
+### 根目录下vite.config.ts文件
 
 ```typescript
 const fs = require("fs")
