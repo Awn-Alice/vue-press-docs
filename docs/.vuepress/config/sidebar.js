@@ -35,12 +35,12 @@ module.exports = {
     },
     "/vue/webpack-conf",
   ],
-  "/engineering/": ["/engineering/git"],
+  "/engineering/": ["/engineering/git", "/engineering/模块化"],
   "/errorLog/": [
     {
       title: "错误日志",
       path: "/errorLog/",
       children: [{ title: "markdown 语法错误", path: "/errorLog/markdown" }],
     },
-  ]
+  ],
 };
