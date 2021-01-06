@@ -7,6 +7,9 @@ module.exports = {
       children: [
         { title: "十进制和二进制的转换", path: "/js/运算符" },
         { title: "es6中的class", path: "/js/class" },
+        { title: "文件上传", path: "/js/uploadFile" },
+        { title: "工具函数", path: "/js/funTools" },
+        { title: "吸顶效果", path: "/js/吸顶效果" }
       ],
     },
   ],

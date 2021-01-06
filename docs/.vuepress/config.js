@@ -15,7 +15,7 @@ module.exports = {
     markdown: {
         lineNumbers: true
     },
-    base: '/vue-press-docs/', // 访问地址的前缀
+    base: '/blog/', // 访问地址的前缀
     port: 8888,
     dest: 'dist', // 默认值 .vuepress/dist，指定 vuepress build 的输出目录
 };
