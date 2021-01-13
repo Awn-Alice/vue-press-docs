@@ -38,3 +38,11 @@
 
     npm run push 'first commit'
     ```
+
+## **连接gitlab远程库超时**
+
+1. 在项目文件夹下执行 git config --local -e 打开git配置文件
+    ![git配置文件](../imgs/项目的git配置.png)
+2. 把url改成仓库的http地址
+3. 然后进行pull或者push时可能会让输入用户名和密码，姓名时gitlab仓库中的名字，密码是gitlab的密码
+    ![git配置文件](../imgs/git用户信息.png)
